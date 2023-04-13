@@ -1,0 +1,25 @@
+.HotAccessories {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+  
+}
+
+.HotAccessories > div:first-child > img {
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 15vw;
+    height: 95%;
+}
+
+.HotAccessories > div:first-child > img:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.HotAccessories > div{
+    display: flex;
+    flex-wrap: wrap;
+
+   
+}

@@ -1,0 +1,30 @@
+.HotItemCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 33%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.HotItemCard > img {
+    width: 35%;
+    border: none;
+}
+
+.HotItemCard p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(85,83,83);
+}
+
+.HotItemCard:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.HotItemCard > span {
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -1vmax 0 1vmax 0;
+}
